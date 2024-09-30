@@ -1,3 +1,6 @@
+# Creating a json file 
+# Author: Andre 
+
 import json
 
 data = {

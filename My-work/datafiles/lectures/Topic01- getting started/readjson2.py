@@ -1,3 +1,6 @@
+# reading json file 
+# Author: Andre 
+
 import json
 
 DATADIR = "C:/Users/demac/OneDrive/Desktop/pands/programming-for-data-analytics/My-work/datafiles/"
