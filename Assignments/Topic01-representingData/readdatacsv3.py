@@ -7,7 +7,7 @@ FILENAME = "data.csv"
 DATADIR = "../Topic01-representingData/"
 
 with open(DATADIR + FILENAME, "rt") as fp:
-    reader = csv.reader(fp, delimiter=",")
+    reader = csv.reader(fp, delimiter=",", quoting=csv.QUOTE_NONNUMERIC) /QUOTE_NONNUMERIC TO READ AS FLOAT
     line_count = 0
     total = 0
     for line in reader:
