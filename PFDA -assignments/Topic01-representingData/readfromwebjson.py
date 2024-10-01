@@ -1,3 +1,6 @@
+# reading from web url
+# Author: Andre 
+
 import requests
 
 url = "https://api.coindesk.com/v1/bpi/currentprice.json"
