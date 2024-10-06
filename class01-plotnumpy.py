@@ -43,5 +43,4 @@ plt.setp(labels, rotation=45, horizontalalignment="right")
 ax.annotate('max', (3, 8), xytext=(1, 9), arrowprops=dict(facecolor="black", shrink=0.05))
 # xy text is where the arrow will be pointed
 
-
 plt.show()
